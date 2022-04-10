@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="outside-container">
+        <div id="outer-ring">
+            <div id="container">
+                <h1 id="score">Score : 0</h1>
+                <canvas id="canvas" width="600" height="600"></canvas>
+                <h1>Use WASD or arrows keys to move</h1>
+            </div>
+            <img src="Chomp.png" alt="" id="chomp">
+            <img src="Bomb-omb.png" alt="" id="bomb">
+            <img src="Mario.png" alt="" id="mario">
+            <img src="bulletBill.png" alt="" id="bullet">
+        </div>
+        <div id="button-field">
+            <button id="reset">Reset</button>
+            <div class="button-light">
+                <p class="light off" id="easy"></p>
+                <button id="easy-mode">Weenie Hut Jr.</button>
+            </div>
+            <div class="button-light">
+                <p class="light off" id="hard"></p>
+                <button id="hard-mode">Bullet Storm</button>
+            </div>
+        </div>
+    </div>
+    <script src="Snake.js"></script>
+</body>
+</html>
